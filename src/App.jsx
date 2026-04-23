@@ -3,6 +3,7 @@ import {BrowserRouter, Routes, Route, Router, Navigate} from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
 
 import './App.css'
+import Register from './components/Register/Register';
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route key="login" path='/login' element={<LoginPage/>} />
+      <Route key="register" path='/register' element = {<Register/>}/>
     </Routes>
     </BrowserRouter>
   )
