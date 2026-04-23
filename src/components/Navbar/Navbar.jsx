@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <div className='navbar'>
-            <nav className="d-flex justify-content-between align-items-center px-4 py-3 border-bottom w-100 h-100">
+            <nav className="d-flex justify-content-between align-items-center px-4 py-3 border-bottom w-100 h-100 nav">
                 <NavbarBrand />
             </nav>
         </div>
